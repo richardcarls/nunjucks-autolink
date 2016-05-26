@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "node"
+  - "5"
+  - "4"
+  - "0.12"
+  - "0.11"
+  - "0.10"
+  - "iojs"
+script: "npm run test-travis"
+after_script: "cat ./coverage/lcov.info | $(npm bin)/coveralls"
+addons:
+  code_climate:
+    repo_token: a55aa91b7e8e862b4afda3fd8cf8b7f8938ae7be7e6b4dd8d7201f4757180e93

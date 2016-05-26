@@ -1,4 +1,7 @@
 # nunjucks-autolink
+[![Build Status](https://travis-ci.org/richardcarls/nunjucks-autolink.svg?branch=master)](https://travis-ci.org/richardcarls/nunjucks-autolink)
+[![Code Climate](https://codeclimate.com/github/richardcarls/nunjucks-autolink/badges/gpa.svg)](https://codeclimate.com/github/richardcarls/nunjucks-autolink)
+
 Nunjucks filter for autolinking URLs
 
 ### Installation
