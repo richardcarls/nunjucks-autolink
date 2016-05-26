@@ -1,4 +1,6 @@
 # nunjucks-autolink
+
+[![Code Climate](https://codeclimate.com/github/richardcarls/nunjucks-autolink/badges/gpa.svg)](https://codeclimate.com/github/richardcarls/nunjucks-autolink)
 Nunjucks filter for autolinking URLs
 
 ### Installation

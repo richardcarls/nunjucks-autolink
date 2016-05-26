@@ -7,9 +7,12 @@
     "test": "test"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.4.3"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "$(npm bin)/mocha",
+    "test-travis": "$(npm bin)/istanbul cover $(npm bin)/_mocha -- -R spec ./test/*"
   },
   "repository": {
     "type": "git",
