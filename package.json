@@ -1,0 +1,30 @@
+{
+  "name": "nunjucks-autolink",
+  "version": "1.0.0",
+  "description": "Nunjucks filter for autolinking URLs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardcarls/nunjucks-autolink.git"
+  },
+  "keywords": [
+    "nunjucks",
+    "filter",
+    "autolink",
+    "link"
+  ],
+  "author": "Richard Carls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardcarls/nunjucks-autolink/issues"
+  },
+  "homepage": "https://github.com/richardcarls/nunjucks-autolink#readme"
+}
